@@ -13,7 +13,7 @@ A Python command-line tool for provisioning and managing AWS resources using bot
 ## Project structure
 
 ```
-aws-infra-automation/
+Aws-Infra-Automation/
 ├── main.py          # CLI entry point
 ├── ec2_manager.py   # EC2 instance lifecycle
 ├── s3_manager.py    # S3 bucket and object operations
@@ -29,8 +29,8 @@ aws-infra-automation/
 
 **1. Clone and install dependencies**
 ```bash
-git clone https://github.com/your-username/aws-infra-automation.git
-cd aws-infra-automation
+git clone https://github.com/your-username/Aws-Infra-Automation.git
+cd Aws-Infra-Automation
 pip install -r requirements.txt
 ```
 
@@ -82,7 +82,7 @@ python main.py iam delete-role --name MyLambdaRole
 python main.py cleanup
 ```
 
-This finds and removes all EC2 instances and S3 buckets tagged `ManagedBy=aws-infra-automation`.
+This finds and removes all EC2 instances and S3 buckets tagged `ManagedBy=Aws-Infra-Automation`.
 
 ## Run modules directly
 
